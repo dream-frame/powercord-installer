@@ -1,2 +1,2 @@
 # powercord-installer
-Linux only
+Unofficial script installer for Powercord on Linux
