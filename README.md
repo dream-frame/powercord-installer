@@ -1,0 +1,2 @@
+# powercord-installer
+Linux only
