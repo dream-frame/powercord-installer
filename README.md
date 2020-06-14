@@ -13,7 +13,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-install
 ```
 Discord Canary
 ```
-Script hasn't been made yet
+bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-installer/master/linux/debian/powercord-for-discord-canary.sh)
 ```
 ### Fedora
 Discord Stable
@@ -26,7 +26,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-install
 ```
 Discord Canary
 ```
-Script hasn't been made yet
+bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-installer/master/linux/fedora/powercord-for-discord-canary.sh
 ```
 ### Arch
 No scripts available for Arch yet
