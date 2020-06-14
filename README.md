@@ -1,5 +1,6 @@
 # Powercord Installers
-This is an unofficial repo, if you're experiencing any issues with the installers, you will not be given help on Powercord's server by staff or anyone else. Just leave an [issue](https://github.com/dream-frame/powercord-installer/issues)
+This is unofficial and no one from Powercord will help you if the script has issues, just submit a report to [issues](https://github.com/dream-frame/powercord-installer/issues).
+This only made to make it easier to install Powercord for noobs.
 
 ## Linux
 ### Debian
