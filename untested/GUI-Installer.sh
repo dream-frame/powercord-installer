@@ -38,6 +38,7 @@ then
     sudo apt install build-essential apt-transport-https lsb-release ca-certificates curl  --yes --quiet
     curl --silent -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
     sudo apt install nodejs --yes --quiet
+    sudo apt install npm --yes --quiet
     clear
     echo "Node is now installed."
     sleep 2s
