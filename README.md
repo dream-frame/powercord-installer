@@ -1,4 +1,8 @@
-# Powercord Installers
+<h1 align="center">Powercord Installers</h1>
+<p align="center">
+  <img src="https://i.imgur.com/cUEiGeZ.png" />
+</p>
+
 This is unofficial and no one from Powercord will help you if the script has issues, just submit a report to [issues](https://github.com/dream-frame/powercord-installer/issues).
 This only made to make it easier to install Powercord for noobs.
 All scripts are put together by [Korbs](https://Twitter.com/KorbsStudio).
