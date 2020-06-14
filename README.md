@@ -9,7 +9,7 @@ Discord Stable - No GUI
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-installer/master/linux/debian/powercord-for-discord-stable.sh)
 ```
-Discord Stable - With GUI(untested)
+Discord Stable - With GUI
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-installer/master/untested/GUI-Installer.sh)
 ```
