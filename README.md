@@ -1,7 +1,7 @@
 # Powercord Installers
 This is unofficial and no one from Powercord will help you if the script has issues, just submit a report to [issues](https://github.com/dream-frame/powercord-installer/issues).
 This only made to make it easier to install Powercord for noobs.
-All scripts are put together by [Korbs](https://Twitter.com/KorbsStudio)
+All scripts are put together by [Korbs](https://Twitter.com/KorbsStudio).
 
 ## Linux
 ### Debian
