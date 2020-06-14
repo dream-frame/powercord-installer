@@ -5,9 +5,13 @@ All scripts are put together by [Korbs](https://Twitter.com/KorbsStudio).
 
 ## Linux
 ### Debian
-Discord Stable
+Discord Stable - No GUI
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-installer/master/linux/debian/powercord-for-discord-stable.sh)
+```
+Discord Stable - With GUI(untested)
+```
+bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-installer/master/untested/GUI-Installer.sh)
 ```
 Discord PTB
 ```
