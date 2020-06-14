@@ -50,7 +50,7 @@ echo "10" ; sleep 1
 echo "# Cloning Powercord" ; sleep 1
 git clone "https://github.com/dream-frame/powercord-for-discord-stable"
 echo "15" ;
-cd powercord
+cd powercord-for-discord-stable
 echo "75" ; sleep 1
 echo "# Installing components" ; sleep 1
 npm i
