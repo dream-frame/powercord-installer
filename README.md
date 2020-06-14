@@ -35,8 +35,10 @@ No scripts available for Arch yet
 
 ## Windows
 No GUI installer is available
-You could try [PlugGUI])(https://plug.creatable.cafe/) by Creatable.
+
+You could try [PlugGUI](https://plug.creatable.cafe/) by Creatable.
 
 ## OSX
 No GUI installer available by Korbs.
-You could try [PlugGUI])(https://plug.creatable.cafe/) by Creatable.
+
+You could try [PlugGUI](https://plug.creatable.cafe/) by Creatable.
