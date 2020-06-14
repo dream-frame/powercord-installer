@@ -46,3 +46,9 @@ You could try [PlugGUI](https://plug.creatable.cafe/) by Creatable.
 No GUI installer available by Korbs.
 
 You could try [PlugGUI](https://plug.creatable.cafe/) by Creatable.
+
+### To Do
+[x] Create GUI Installer
+[ ] Add custom icon to Powercord
+[ ] Add Fedora script for GUI Installer
+[ ] Add Canary and PTB for GUI Installer
