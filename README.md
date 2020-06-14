@@ -17,24 +17,24 @@ Discord Stable - With GUI
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-installer/master/untested/GUI-Installer.sh)
 ```
-Discord PTB
+Discord PTB - No GUI
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-installer/master/linux/debian/powercord-for-discord-ptb.sh
 ```
-Discord Canary
+Discord Canary - No GUI
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-installer/master/linux/debian/powercord-for-discord-canary.sh)
 ```
 ### Fedora
-Discord Stable
+Discord Stable - No GUI
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-installer/master/linux/fedora/powercord-for-discord-stable.sh)
 ```
-Discord PTB
+Discord PTB - No GUI
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-installer/master/linux/fedora/powercord-for-discord-ptb.sh
 ```
-Discord Canary
+Discord Canary - No GUI
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-installer/master/linux/fedora/powercord-for-discord-canary.sh
 ```
