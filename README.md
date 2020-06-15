@@ -39,22 +39,22 @@ Discord Canary - No GUI
 bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-installer/master/linux/nogui/fedora/powercord-for-discord-canary.sh
 ```
 ### Arch
-No scripts available for Arch yet
+There are no plans to create a script for Arch, Arch users aren't noobs
 
 ## Windows
-No GUI installer is available
+There are no plans to create a GUI installer for Windows
 
 You could try [PlugGUI](https://plug.creatable.cafe/) by Creatable.
 
 ## OSX
-No GUI installer available by Korbs.
+There are no plans to create a GUI installer for OSX
 
 You could try [PlugGUI](https://plug.creatable.cafe/) by Creatable.
 
 ### To Do
 - [x] Create GUI Installer
 
-- [ ] Add custom icon to Powercord
+- [x] Add custom icon to Powercord
 
 - [ ] Add Fedora script for GUI Installer
 
