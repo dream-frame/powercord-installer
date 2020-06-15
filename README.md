@@ -4,8 +4,11 @@
 </p>
 
 This is unofficial and no one from Powercord will help you if the script has issues, just submit a report to [issues](https://github.com/dream-frame/powercord-installer/issues).
+
 **This project was only made for fun and for those who are new to Linux and are noobs.**
+
 All scripts are put together by [Korbs](https://Twitter.com/KorbsStudio).
+
 
 ## Linux
 ### Debian
