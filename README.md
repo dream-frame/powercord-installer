@@ -4,8 +4,12 @@
 </p>
 
 This is unofficial and no one from Powercord will help you if the script has issues, just submit a report to [issues](https://github.com/dream-frame/powercord-installer/issues).
-This only made to make it easier to install Powercord for noobs.
+
+**This project was only made for fun and for those who are new to Linux and are total noobs.**
+
 All scripts are put together by [Korbs](https://Twitter.com/KorbsStudio).
+
+Just to be clear, **Powercord** only supports **Discord Canary**, for Stable and PTB you'll be using a fork of mine that is also unofficial.
 
 ## Linux
 ### Debian
