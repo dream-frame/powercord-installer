@@ -7,9 +7,10 @@ wget --quiet "https://raw.githubusercontent.com/dream-frame/powercord-installer/
 
 
 # Auth
-  while ! zenity --password| sudo -S cat /dev/null >/dev/null; do
+  while ! zenity --password  --ok-label="Continue"| sudo -S cat /dev/null >/dev/null; do
     if $(zenity --question --icon-name="powercord" --ellipsize --text="Wrong password, would you like to cancel the installation?"); then
       echo "no app-entry made, returning"
+      zenity --warning --ellipsize --text="The installation was interrupted."
       return;
     fi
   done
@@ -18,23 +19,41 @@ wget --quiet "https://raw.githubusercontent.com/dream-frame/powercord-installer/
 # Checking System Requirements
     (
         if ! [ -x "$(command -v git)" ]; then # Check if Git is installed
+          echo "# Installing Git, please wait..."
           echo 'Git isn't installed. Installing Git... >&2
-          sudo apt install git
-          exit 1
+          sudo apt install git --yes
+          sleep 1
         fi
             echo "Git is installed, skipping..."
         echo "100" ;
         if ! [ -x "$(command -v node)" ]; then # Check if node is installed
-          echo 'Git isn't installed. Installing Git... >&2
-          sudo apt install git
-          exit 1
+          echo "# Installing Node 12, please wait..."
+          echo 'Node isn't installed. Installing Node... >&2
+          sudo apt install build-essential apt-transport-https lsb-release ca-certificates curl  --yes
+          curl --silent -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+          sudo apt install nodejs --yes
+          sudo apt install npm --yes
+          sleep 1
         fi
-            echo "Git is installed, skipping..."
-        echo "# Click Continue." ;
+            echo "Node is installed, skipping..."
+
+        if [ -x /usr/share/discord-canary ]; then
+            echo "Discord Canary is installed, skipping..."
+        else
+            echo "# Installing Discord Canary, please wait..."
+            echo "Discord Canary isn't installed. Install Discord Canary..."
+            wget "https://discordapp.com/api/download/canary?platform=linux" -o discord-canary.deb
+            sudo dpkg --install discord-canary.deb
+            cd ~; sleep 2
+        fi
+
+
+        echo "# Powercord is ready, install now?" ;
         echo "100" ;
+        exit
     ) |
     zenity --progress --title "Powercord Installer" \
-    --text "Checking requirements..." --percentage=0 --pulsate --ok-label="Continue"
+    --text "Checking requirements..." --width="500" --percentage=0 --pulsate --ok-label="Yes" --cancel-label="No"
 
 
 # Final - Install Powercord
@@ -42,10 +61,10 @@ wget --quiet "https://raw.githubusercontent.com/dream-frame/powercord-installer/
         echo "10" ;
         echo "# Cloning Powercord" ;
         cd ~ #Put Powercord in Home folder.
-        git clone "https://github.com/dream-frame/powercord-for-discord-stable"
+        git clone "https://github.com/powercord-org-/powercord/"
 
         echo "15" ;
-        cd powercord-for-discord-stable
+        cd powercord
 
         echo "75" ;
         echo "# Installing components" ;
@@ -67,6 +86,6 @@ wget --quiet "https://raw.githubusercontent.com/dream-frame/powercord-installer/
 zenity --progress --title "Powercord Installer" \
 --width 500 --text "Preparing to install Powercord..." --percentage=0
 clear
-zenity --info --ellipsize --title="Job complete" --text="Finished installing."
+zenity --info --ellipsize --icon-name="powercord" --title="Job complete" --text="Finished installing."
 sudo -K
 clear

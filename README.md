@@ -58,7 +58,7 @@ You could try [PlugGUI](https://plug.creatable.cafe/) by Creatable.
 
 - [ ] Test on a different distro
 
-- [ ] Make script auto detect requirements
+- [x] Make script auto detect requirements
 
 - [ ] Add Fedora script for GUI Installer
 
