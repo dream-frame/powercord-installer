@@ -56,7 +56,9 @@ You could try [PlugGUI](https://plug.creatable.cafe/) by Creatable.
 
 - [x] Add custom icon to Powercord
 
-- [ ] Add Fedora script for GUI Installer
+- [ ] Test on a different distro
 
-- [ ] Add Canary and PTB for GUI Installer
+- [ ] Make script auto detect requirements
+
+- [ ] Add Fedora script for GUI Installer
 
