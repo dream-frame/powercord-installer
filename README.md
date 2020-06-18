@@ -17,10 +17,6 @@ Discord Stable - No GUI
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-installer/master/linux/nogui/debian/powercord-for-discord-stable.sh)
 ```
-Discord PTB - No GUI
-```
-bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-installer/master/linux/nogui/debian/powercord-for-discord-ptb.sh
-```
 Discord Canary - No GUI
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-installer/master/linux/nogui/debian/powercord-for-discord-canary.sh)
@@ -29,10 +25,6 @@ bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-install
 Discord Stable - No GUI
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-installer/master/linux/nogui/fedora/powercord-for-discord-stable.sh)
-```
-Discord PTB - No GUI
-```
-bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-installer/master/linux/nogui/fedora/powercord-for-discord-ptb.sh
 ```
 Discord Canary - No GUI
 ```
@@ -59,6 +51,8 @@ You could try [PlugGUI](https://plug.creatable.cafe/) by Creatable.
 - [ ] Test on a different distro
 
 - [x] Make script auto detect requirements
+      - Node 12 & NPM
+      - Git
 
 - [ ] Add Fedora script for GUI Installer
 
