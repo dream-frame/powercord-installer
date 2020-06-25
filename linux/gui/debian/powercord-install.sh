@@ -40,11 +40,8 @@ wget --quiet "https://raw.githubusercontent.com/dream-frame/powercord-installer/
         if [ -x /usr/share/discord-canary ]; then
             echo "Discord Canary is installed, skipping..."
         else
-            echo "# Installing Discord Canary, please wait..."
-            echo "Discord Canary isn't installed. Install Discord Canary..."
-            wget "https://discordapp.com/api/download/canary?platform=linux" -o discord-canary.deb
-            sudo dpkg --install discord-canary.deb
-            cd ~; sleep 2
+            zenity --warning --text="Discord Canary isn't installed. Please quit the setup and install Discord Canary!"
+            exit
         fi
 
 
