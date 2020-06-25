@@ -16,6 +16,8 @@ do
         fi
             clear
             echo "Git is installed, skipping..."
+            sleep 1
+            clear
         if ! [ -x "$(command -v node)" ]; then # Check if node is installed
           echo "# Installing Node 12, please wait..."
           echo "Node is not installed. Installing Node..." >&2
@@ -26,12 +28,16 @@ do
           sleep 1
         fi
             echo "Node is installed, skipping..."
-
+            sleep 1
+            clear
         if [ -x /usr/share/discord-canary ]; then
             echo "Discord Canary is installed, skipping..."
-        else
-            echo "Discord Canary isn't installed. Please quit the setup and install Discord Canary!"
-            quit
+            sleep 1
+            clear
+                    else
+            tput setaf 1; echo "Please stop the setup!"
+            tput setaf 1; echo "Discord Canary isn't installed. Please quit the setup and install Discord Canary!"
+            sleep 120
         fi
  clear
  break
@@ -46,3 +52,9 @@ do
  ;;
  esac
  done
+
+cd ~
+git clone https://github.com/powercord-org/powercord
+cd powercord
+npm i
+npm run plug
