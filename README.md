@@ -11,19 +11,11 @@ All scripts are put together by [Korbs](https://Twitter.com/KorbsStudio).
 
 ## Linux
 ### Debian
-Discord Stable - No GUI
-```
-bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-installer/master/linux/nogui/debian/powercord-for-discord-stable.sh)
-```
 Discord Canary - No GUI
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-installer/master/linux/nogui/debian/powercord-for-discord-canary.sh)
 ```
 ### Fedora
-Discord Stable - No GUI
-```
-bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-installer/master/linux/nogui/fedora/powercord-for-discord-stable.sh)
-```
 Discord Canary - No GUI
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/dream-frame/powercord-installer/master/linux/nogui/fedora/powercord-for-discord-canary.sh
