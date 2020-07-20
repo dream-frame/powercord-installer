@@ -9,8 +9,6 @@ This is unofficial and no one from Powercord will help you if the script has iss
 
 All scripts are put together by [Korbs](https://Twitter.com/KorbsStudio).
 
-Just to be clear, **Powercord** only supports **Discord Canary**, for Stable and PTB you'll be using a fork of mine that is also unofficial.
-
 ## Linux
 ### Debian
 Discord Stable - No GUI
