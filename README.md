@@ -38,11 +38,9 @@ You could try [PlugGUI](https://plug.creatable.cafe/) by Creatable.
 
 - [x] Add custom icon to Powercord
 
-- [ ] Test on a different distro
+- [x] Test on a different distro
 
 - [x] Make script auto detect requirements
       - Node 12 & NPM
       - Git
-
-- [ ] Add Fedora script for GUI Installer
 
