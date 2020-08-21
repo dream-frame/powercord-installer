@@ -34,6 +34,8 @@ There are no plans to create a GUI installer for OSX
 You could try [PlugGUI](https://plug.creatable.cafe/) by Creatable.
 
 ### To Do
+- [ ] Convert __Zenity__ to __Whiptail__
+
 - [x] Create GUI Installer
 
 - [x] Add custom icon to Powercord
