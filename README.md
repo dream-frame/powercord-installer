@@ -1,4 +1,6 @@
 <h1 align="center">Powercord Installers</h1>
+This project is planned to be discontinued after the release of Powercord v3. Although there are no plans anyway for future updates as of now.
+So this may already be discontinued ;P
 <p align="center">
   <img src="https://i.imgur.com/cUEiGeZ.png" />
 </p>
